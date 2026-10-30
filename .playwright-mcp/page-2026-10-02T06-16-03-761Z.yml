@@ -1,0 +1,53 @@
+- generic [active] [ref=f4e1]:
+  - main [ref=f4e2]:
+    - generic [ref=f4e3]:
+      - link "Vipod home" [ref=f4e4] [cursor=pointer]:
+        - /url: "#top"
+        - text: VIPOD
+      - paragraph [ref=f4e11]: Your music. Your library.
+      - generic [ref=f4e12]: Checking tools
+    - generic [ref=f4e14]:
+      - generic [ref=f4e15]:
+        - paragraph [ref=f4e16]: YOUR PERSONAL MUSIC TOOL
+        - heading [level=1] [ref=f4e18]:
+          - text: Make the internet
+          - emphasis [ref=f4e19]: part of your library.
+        - paragraph [ref=f4e20]: Bring a track in. Make it yours. Keep it close.
+      - generic [ref=f4e22]: VP
+    - region [ref=f4e33]:
+      - generic [ref=f4e34]:
+        - generic [ref=f4e35]: "01"
+        - generic [ref=f4e36]:
+          - paragraph [ref=f4e37]: START WITH A LINK
+          - heading "What are we bringing in?" [level=2] [ref=f4e38]
+      - generic [ref=f4e39]:
+        - generic [ref=f4e40]: YouTube video URL
+        - generic [ref=f4e41]:
+          - textbox "YouTube video URL" [ref=f4e45]:
+            - /placeholder: Paste a YouTube link
+          - button [ref=f4e46] [cursor=pointer]
+    - generic [ref=f4e51]:
+      - generic [ref=f4e52]:
+        - generic [ref=f4e53]: "02"
+        - generic [ref=f4e54]:
+          - paragraph [ref=f4e55]: THREE SMALL STEPS
+          - heading "From link to library." [level=2] [ref=f4e56]
+      - generic [ref=f4e57]:
+        - article [ref=f4e58]:
+          - generic [ref=f4e63]: "01"
+          - heading "Paste a link" [level=3] [ref=f4e64]
+          - paragraph [ref=f4e65]: Start with a YouTube video. We’ll find the available media.
+        - article [ref=f4e66]:
+          - generic [ref=f4e71]: "02"
+          - heading "Make it yours" [level=3] [ref=f4e72]
+          - paragraph [ref=f4e73]: Choose your format and add the track details you want.
+        - article [ref=f4e74]:
+          - generic [ref=f4e79]: "03"
+          - heading "Download & import" [level=3] [ref=f4e80]
+          - paragraph [ref=f4e81]: Save the file and bring it into your personal library.
+    - generic [ref=f4e82]:
+      - link [ref=f4e83] [cursor=pointer]:
+        - /url: "#top"
+      - generic [ref=f4e90]: Your music stays yours.
+  - button "Open Next.js Dev Tools" [ref=f4e96] [cursor=pointer]
+  - alert [ref=f4e100]

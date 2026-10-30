@@ -1,0 +1,21 @@
+# Optional shell configuration for VIPOD Web.
+# Set these in the same terminal before running npm run dev or npm start.
+# Defaults target Homebrew's Apple Silicon installation.
+export YT_DLP_PATH="/opt/homebrew/bin/yt-dlp"
+export FFMPEG_PATH="/opt/homebrew/bin/ffmpeg"
+export FFPROBE_PATH="/opt/homebrew/bin/ffprobe"
+
+# Optional custom location for job manifests and generated files.
+# Custom paths outside this project are not automatically gitignored.
+# export DATA_DIR="$HOME/VIPOD-data"
+
+# Optional limits. Values are bytes and seconds, respectively.
+# Defaults: 2147483648 bytes (2 GiB), 14400 seconds (4 hours).
+# export MAX_DOWNLOAD_BYTES="2147483648"
+# export MAX_VIDEO_DURATION_SECONDS="14400"
+
+# Optional MusicBrainz application/contact identifier.
+# export MUSICBRAINZ_USER_AGENT="vipod-web/0.1.0 (you@example.com)"
+
+# Optional comma-separated extra request origins accepted by write endpoints.
+# export ALLOWED_ORIGINS="http://192.168.1.20:3000"

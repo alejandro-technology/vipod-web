@@ -1,0 +1,38 @@
+{
+  "name": "vipod-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run test:server && npm run test:ui",
+    "test:server": "node --conditions=react-server --import tsx --test tests/backend*.test.ts tests/metadata*.test.ts tests/library*.test.ts tests/title*.test.ts",
+    "test:ui": "node --import tsx --test tests/frontend*.test.ts"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.104.1",
+    "lucide-react": "^0.468.0",
+    "next": "16.3.8",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "server-only": "^0.0.1",
+    "zod": "^4.1.12",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/react": "^16.3.3",
+    "@types/jsdom": "^30.0.0",
+    "@types/node": "^22.15.30",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "16.3.8",
+    "jsdom": "^30.1.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
